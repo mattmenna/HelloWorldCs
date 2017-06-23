@@ -15,7 +15,9 @@ namespace HelloWorldCs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            String message = "Hello World";
+
+            Console.WriteLine("My message is " + message);
             //Keep the console window open in debug mode.
             Console.WriteLine("Press any Key to Exit.");
             Console.ReadKey();
